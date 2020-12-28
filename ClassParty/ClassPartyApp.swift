@@ -11,7 +11,7 @@ import SwiftUI
 struct ClassPartyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           TabwalaView()
         }
     }
 }

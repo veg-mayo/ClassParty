@@ -3,23 +3,80 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69DC196C2AEBF1FB00596387 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DC196B2AEBF1FB00596387 /* DataModels.swift */; };
 		F59DF4AC258306C800D4510F /* ClassPartyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59DF4AB258306C800D4510F /* ClassPartyApp.swift */; };
 		F59DF4AE258306C800D4510F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59DF4AD258306C800D4510F /* ContentView.swift */; };
 		F59DF4B0258306CC00D4510F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59DF4AF258306CC00D4510F /* Assets.xcassets */; };
 		F59DF4B3258306CC00D4510F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59DF4B2258306CC00D4510F /* Preview Assets.xcassets */; };
+		F59DF4F02583CFF600D4510F /* TabwalaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59DF4EF2583CFF500D4510F /* TabwalaView.swift */; };
+		F59DF4F32583D06000D4510F /* WiredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59DF4F22583D06000D4510F /* WiredView.swift */; };
+		F59DF4F72583D15600D4510F /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = F59DF4F62583D15600D4510F /* SwiftyJSON */; };
+		F59DF4FA2583D3DC00D4510F /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59DF4F92583D3DC00D4510F /* NewsView.swift */; };
+		F59DF4FE2583DA8500D4510F /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = F59DF4FD2583DA8500D4510F /* SDWebImageSwiftUI */; };
+		F59DF5052583E7DA00D4510F /* benton-sans-black.otf in Resources */ = {isa = PBXBuildFile; fileRef = F59DF5002583E7D900D4510F /* benton-sans-black.otf */; };
+		F59DF5062583E7DA00D4510F /* benton-sans-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F59DF5012583E7D900D4510F /* benton-sans-bold.otf */; };
+		F59DF5072583E7DA00D4510F /* benton-sans-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F59DF5022583E7DA00D4510F /* benton-sans-regular.otf */; };
+		F59DF5082583E7DA00D4510F /* benton-sans-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F59DF5032583E7DA00D4510F /* benton-sans-medium.otf */; };
+		F59DF5092583E7DA00D4510F /* benton-sans-book.otf in Resources */ = {isa = PBXBuildFile; fileRef = F59DF5042583E7DA00D4510F /* benton-sans-book.otf */; };
+		F59DF53E2585C74E00D4510F /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59DF53D2585C74E00D4510F /* WidgetKit.framework */; };
+		F59DF5402585C74E00D4510F /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59DF53F2585C74E00D4510F /* SwiftUI.framework */; };
+		F59DF5432585C74E00D4510F /* ClasPartyWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59DF5422585C74E00D4510F /* ClasPartyWidget.swift */; };
+		F59DF5452585C75100D4510F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59DF5442585C75100D4510F /* Assets.xcassets */; };
+		F59DF5492585C75100D4510F /* ClasPartyWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F59DF53B2585C74E00D4510F /* ClasPartyWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F59DF5522585E34700D4510F /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59DF5502585E34500D4510F /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F59DF5472585C75100D4510F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F59DF4A0258306C800D4510F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F59DF53A2585C74E00D4510F;
+			remoteInfo = ClasPartyWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F59DF54A2585C75100D4510F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F59DF5492585C75100D4510F /* ClasPartyWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		69DC196B2AEBF1FB00596387 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
 		F59DF4A8258306C800D4510F /* ClassParty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassParty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F59DF4AB258306C800D4510F /* ClassPartyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassPartyApp.swift; sourceTree = "<group>"; };
 		F59DF4AD258306C800D4510F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F59DF4AF258306CC00D4510F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F59DF4B2258306CC00D4510F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F59DF4B4258306CC00D4510F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F59DF4EF2583CFF500D4510F /* TabwalaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabwalaView.swift; sourceTree = "<group>"; };
+		F59DF4F22583D06000D4510F /* WiredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiredView.swift; sourceTree = "<group>"; };
+		F59DF4F92583D3DC00D4510F /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		F59DF5002583E7D900D4510F /* benton-sans-black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "benton-sans-black.otf"; sourceTree = "<group>"; };
+		F59DF5012583E7D900D4510F /* benton-sans-bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "benton-sans-bold.otf"; sourceTree = "<group>"; };
+		F59DF5022583E7DA00D4510F /* benton-sans-regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "benton-sans-regular.otf"; sourceTree = "<group>"; };
+		F59DF5032583E7DA00D4510F /* benton-sans-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "benton-sans-medium.otf"; sourceTree = "<group>"; };
+		F59DF5042583E7DA00D4510F /* benton-sans-book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "benton-sans-book.otf"; sourceTree = "<group>"; };
+		F59DF53B2585C74E00D4510F /* ClasPartyWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ClasPartyWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59DF53D2585C74E00D4510F /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		F59DF53F2585C74E00D4510F /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		F59DF5422585C74E00D4510F /* ClasPartyWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClasPartyWidget.swift; sourceTree = "<group>"; };
+		F59DF5442585C75100D4510F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F59DF5462585C75100D4510F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F59DF5502585E34500D4510F /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +84,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F59DF4FE2583DA8500D4510F /* SDWebImageSwiftUI in Frameworks */,
+				F59DF4F72583D15600D4510F /* SwiftyJSON in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59DF5382585C74E00D4510F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59DF5402585C74E00D4510F /* SwiftUI.framework in Frameworks */,
+				F59DF53E2585C74E00D4510F /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				F59DF4AA258306C800D4510F /* ClassParty */,
+				F59DF5412585C74E00D4510F /* ClasPartyWidget */,
+				F59DF53C2585C74E00D4510F /* Frameworks */,
 				F59DF4A9258306C800D4510F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				F59DF4A8258306C800D4510F /* ClassParty.app */,
+				F59DF53B2585C74E00D4510F /* ClasPartyWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,10 +124,20 @@
 			isa = PBXGroup;
 			children = (
 				F59DF4AB258306C800D4510F /* ClassPartyApp.swift */,
+				F59DF5502585E34500D4510F /* SwiftUIView.swift */,
 				F59DF4AD258306C800D4510F /* ContentView.swift */,
+				F59DF4EF2583CFF500D4510F /* TabwalaView.swift */,
+				F59DF4F22583D06000D4510F /* WiredView.swift */,
+				F59DF4F92583D3DC00D4510F /* NewsView.swift */,
 				F59DF4AF258306CC00D4510F /* Assets.xcassets */,
+				F59DF5002583E7D900D4510F /* benton-sans-black.otf */,
+				F59DF5012583E7D900D4510F /* benton-sans-bold.otf */,
+				F59DF5042583E7DA00D4510F /* benton-sans-book.otf */,
+				F59DF5032583E7DA00D4510F /* benton-sans-medium.otf */,
+				F59DF5022583E7DA00D4510F /* benton-sans-regular.otf */,
 				F59DF4B4258306CC00D4510F /* Info.plist */,
 				F59DF4B1258306CC00D4510F /* Preview Content */,
+				69DC196B2AEBF1FB00596387 /* DataModels.swift */,
 			);
 			path = ClassParty;
 			sourceTree = "<group>";
@@ -69,6 +150,25 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F59DF53C2585C74E00D4510F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F59DF53D2585C74E00D4510F /* WidgetKit.framework */,
+				F59DF53F2585C74E00D4510F /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F59DF5412585C74E00D4510F /* ClasPartyWidget */ = {
+			isa = PBXGroup;
+			children = (
+				F59DF5422585C74E00D4510F /* ClasPartyWidget.swift */,
+				F59DF5442585C75100D4510F /* Assets.xcassets */,
+				F59DF5462585C75100D4510F /* Info.plist */,
+			);
+			path = ClasPartyWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,15 +179,38 @@
 				F59DF4A4258306C800D4510F /* Sources */,
 				F59DF4A5258306C800D4510F /* Frameworks */,
 				F59DF4A6258306C800D4510F /* Resources */,
+				F59DF54A2585C75100D4510F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F59DF5482585C75100D4510F /* PBXTargetDependency */,
+			);
+			name = ClassParty;
+			packageProductDependencies = (
+				F59DF4F62583D15600D4510F /* SwiftyJSON */,
+				F59DF4FD2583DA8500D4510F /* SDWebImageSwiftUI */,
+			);
+			productName = ClassParty;
+			productReference = F59DF4A8258306C800D4510F /* ClassParty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F59DF53A2585C74E00D4510F /* ClasPartyWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F59DF54D2585C75100D4510F /* Build configuration list for PBXNativeTarget "ClasPartyWidgetExtension" */;
+			buildPhases = (
+				F59DF5372585C74E00D4510F /* Sources */,
+				F59DF5382585C74E00D4510F /* Frameworks */,
+				F59DF5392585C74E00D4510F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ClassParty;
-			productName = ClassParty;
-			productReference = F59DF4A8258306C800D4510F /* ClassParty.app */;
-			productType = "com.apple.product-type.application";
+			name = ClasPartyWidgetExtension;
+			productName = ClasPartyWidgetExtension;
+			productReference = F59DF53B2585C74E00D4510F /* ClasPartyWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -101,6 +224,9 @@
 					F59DF4A7258306C800D4510F = {
 						CreatedOnToolsVersion = 12.2;
 					};
+					F59DF53A2585C74E00D4510F = {
+						CreatedOnToolsVersion = 12.2;
+					};
 				};
 			};
 			buildConfigurationList = F59DF4A3258306C800D4510F /* Build configuration list for PBXProject "ClassParty" */;
@@ -112,11 +238,16 @@
 				Base,
 			);
 			mainGroup = F59DF49F258306C800D4510F;
+			packageReferences = (
+				F59DF4F52583D15600D4510F /* XCRemoteSwiftPackageReference "swiftyjson" */,
+				F59DF4FC2583DA8500D4510F /* XCRemoteSwiftPackageReference "sdwebimageswiftui" */,
+			);
 			productRefGroup = F59DF4A9258306C800D4510F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				F59DF4A7258306C800D4510F /* ClassParty */,
+				F59DF53A2585C74E00D4510F /* ClasPartyWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -127,7 +258,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				F59DF4B3258306CC00D4510F /* Preview Assets.xcassets in Resources */,
+				F59DF5062583E7DA00D4510F /* benton-sans-bold.otf in Resources */,
+				F59DF5092583E7DA00D4510F /* benton-sans-book.otf in Resources */,
 				F59DF4B0258306CC00D4510F /* Assets.xcassets in Resources */,
+				F59DF5052583E7DA00D4510F /* benton-sans-black.otf in Resources */,
+				F59DF5072583E7DA00D4510F /* benton-sans-regular.otf in Resources */,
+				F59DF5082583E7DA00D4510F /* benton-sans-medium.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59DF5392585C74E00D4510F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59DF5452585C75100D4510F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,12 +282,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F59DF4F32583D06000D4510F /* WiredView.swift in Sources */,
 				F59DF4AE258306C800D4510F /* ContentView.swift in Sources */,
 				F59DF4AC258306C800D4510F /* ClassPartyApp.swift in Sources */,
+				69DC196C2AEBF1FB00596387 /* DataModels.swift in Sources */,
+				F59DF4FA2583D3DC00D4510F /* NewsView.swift in Sources */,
+				F59DF4F02583CFF600D4510F /* TabwalaView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59DF5372585C74E00D4510F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59DF5522585E34700D4510F /* SwiftUIView.swift in Sources */,
+				F59DF5432585C74E00D4510F /* ClasPartyWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F59DF5482585C75100D4510F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F59DF53A2585C74E00D4510F /* ClasPartyWidgetExtension */;
+			targetProxy = F59DF5472585C75100D4510F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		F59DF4B5258306CC00D4510F /* Debug */ = {
@@ -265,6 +430,7 @@
 		F59DF4B8258306CC00D4510F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +453,7 @@
 		F59DF4B9258306CC00D4510F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -301,6 +468,48 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = in.co.redphoenix.d1.ClassParty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F59DF54B2585C75100D4510F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WM2BL94N5;
+				INFOPLIST_FILE = ClasPartyWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.co.redphoenix.d1.ClassParty.ClasPartyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F59DF54C2585C75100D4510F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WM2BL94N5;
+				INFOPLIST_FILE = ClasPartyWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.co.redphoenix.d1.ClassParty.ClasPartyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -327,7 +536,48 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		F59DF54D2585C75100D4510F /* Build configuration list for PBXNativeTarget "ClasPartyWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59DF54B2585C75100D4510F /* Debug */,
+				F59DF54C2585C75100D4510F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F59DF4F52583D15600D4510F /* XCRemoteSwiftPackageReference "swiftyjson" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/swiftyjson/swiftyjson";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		F59DF4FC2583DA8500D4510F /* XCRemoteSwiftPackageReference "sdwebimageswiftui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sdwebimage/sdwebimageswiftui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F59DF4F62583D15600D4510F /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F59DF4F52583D15600D4510F /* XCRemoteSwiftPackageReference "swiftyjson" */;
+			productName = SwiftyJSON;
+		};
+		F59DF4FD2583DA8500D4510F /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F59DF4FC2583DA8500D4510F /* XCRemoteSwiftPackageReference "sdwebimageswiftui" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F59DF4A0258306C800D4510F /* Project object */;
 }
