@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69DC196C2AEBF1FB00596387 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DC196B2AEBF1FB00596387 /* DataModels.swift */; };
 		F59DF4AC258306C800D4510F /* ClassPartyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59DF4AB258306C800D4510F /* ClassPartyApp.swift */; };
 		F59DF4AE258306C800D4510F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59DF4AD258306C800D4510F /* ContentView.swift */; };
 		F59DF4B0258306CC00D4510F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59DF4AF258306CC00D4510F /* Assets.xcassets */; };
@@ -54,6 +55,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		69DC196B2AEBF1FB00596387 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
 		F59DF4A8258306C800D4510F /* ClassParty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassParty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F59DF4AB258306C800D4510F /* ClassPartyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassPartyApp.swift; sourceTree = "<group>"; };
 		F59DF4AD258306C800D4510F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				F59DF5022583E7DA00D4510F /* benton-sans-regular.otf */,
 				F59DF4B4258306CC00D4510F /* Info.plist */,
 				F59DF4B1258306CC00D4510F /* Preview Content */,
+				69DC196B2AEBF1FB00596387 /* DataModels.swift */,
 			);
 			path = ClassParty;
 			sourceTree = "<group>";
@@ -282,8 +285,8 @@
 				F59DF4F32583D06000D4510F /* WiredView.swift in Sources */,
 				F59DF4AE258306C800D4510F /* ContentView.swift in Sources */,
 				F59DF4AC258306C800D4510F /* ClassPartyApp.swift in Sources */,
-				F59DF4FA2583D3DC00D4510F /* NewsView.swift in Sources */,
-				F59DF4F02583CFF600D4510F /* TabwalaView.swift in Sources */,
+
+			
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
