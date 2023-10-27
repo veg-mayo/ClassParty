@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -285,9 +285,8 @@
 				F59DF4F32583D06000D4510F /* WiredView.swift in Sources */,
 				F59DF4AE258306C800D4510F /* ContentView.swift in Sources */,
 				F59DF4AC258306C800D4510F /* ClassPartyApp.swift in Sources */,
-				69DC196C2AEBF1FB00596387 /* DataModels.swift in Sources */,
-				F59DF4FA2583D3DC00D4510F /* NewsView.swift in Sources */,
-				F59DF4F02583CFF600D4510F /* TabwalaView.swift in Sources */,
+
+			
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
